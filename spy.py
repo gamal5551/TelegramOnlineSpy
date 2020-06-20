@@ -1,4 +1,4 @@
-from datetime import datetime
+﻿from datetime import datetime
 from sys import argv, exit
 from telethon import TelegramClient, events, connection
 from telethon.tl.types import UserStatusOnline, UserStatusOffline
@@ -8,8 +8,8 @@ from threading import Thread
 import collections
 
 DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
-API_HASH = 'your api hash'
-API_ID = 'your api id'
+API_HASH = 'a474e63940b2ca478cc68d10aaab7e9f'
+API_ID = '639860'
 BOT_TOKEN = "your bot token"
 USER_NAME = "your user name"
 
@@ -20,9 +20,9 @@ client.start()
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 data = {}
-destination_user_username=USER_NAME
-entity=bot.get_entity(destination_user_username)
-entity=client.get_entity(destination_user_username)
+destination_user_username=+967777558755
+entity=bot.get_entity(Eman)
+entity=client.get_entity(Eman)
 
 help_messages = ['/start - start online monitoring ',
          '/stop - stop online monitoring ',
